@@ -6,36 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
+  <link href="/dist/output.css" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
-  <title>Frontend Mentor | News homepage</title>
+  <title>W. - Homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
-  <header>
+  <header class="flex  p-6 items-center justify-around">
 
     <img src="./assets/images//logo.svg" alt="W logo" />
 
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">New</a></li>
-        <li><a href="#">Popluar</a></li>
-        <li><a href="#">Trending</a></li>
-        <li><a href="#">Categories</a></li>
+    <nav class="relative container">
+      <ul class="hidden med:flex justify-end">
+        <li class="m-6"><a href="#">Home</a></li>
+        <li class="m-6"><a href="#">New</a></li>
+        <li class="m-6"><a href="#">Popluar</a></li>
+        <li class="m-6"><a href="#">Trending</a></li>
+        <li class="m-6"><a href="#">Categories</a></li>
       </ul>
     </nav>
 
@@ -48,7 +38,7 @@
 
         <img src="./assets/images/image-web-3-desktop.jpg" alt="colourful assortment of cartoon shape blocks">
         <div class="articleFlex">
-          <h2>The Bright Future of Web 3.0?</h2>
+          <h2 class="text-3xl">The Bright Future of Web 3.0?</h2>
           <div class="descripFlex">
             <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the
               hands of the people. But is it really fulfilling its promise?</p>
